@@ -1,0 +1,19 @@
+body {
+  background-color: #323232;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.abc {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #C0C0C0;
+}
