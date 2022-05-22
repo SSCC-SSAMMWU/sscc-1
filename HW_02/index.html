@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lee MinWoo</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="row">
+        <div class="col-6 profile-image-box">
+          <img src="./images/main-logo.png" alt="Profile Logo Image" class="profile-image">
+        </div>
+
+        <div class="col-6 profile-title">
+          <h1 class="name-title">Lee MinWoo</h1>
+          <h4 class="name-title">개인 프트폴리오 만들기</h4>
+        </div>
+      </header>
+
+      <hr>
+
+      <!-- Main Image -->
+      <div class="row">
+        <div class="main-image col-12 center-text">
+          <img src="./images/mini-cafe.jpeg"
+               srcset="./images/mini-cafe.jpeg 400w,
+                       ./images/small-cafe.jpeg 600w,
+                       ./images/large-cafe.jpeg 800w"
+               sizes="100vw"
+               alt="main image">
+          <div class="main-overlay center-text">
+            <p class="main-overlay-text">Aspiring Programmer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Me -->
+      <section class="row">
+        <div class="col-12 feature-title">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="row about">
+          <div class="col-4 about-flex">
+            <div class="about-profile center-text">
+              <img src="./images/profile.jpg" alt="About Profile Image" class="about-image">
+            </div>
+          </div>
+
+          <div class="col-8 about-flex">
+            <p class="about-text">
+              아직은 뭘 적을 것이 없는 대학생
+              <br /><br />
+              언젠가는 가득 채워넣어야지<br />
+              ~2022 Buyeo High School<br />
+              <br />
+              2022~ Soongsil University
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Works -->
+      <div class="row">
+        <div class="col-12 feature-title">
+          <h2>Featured Work</h2>
+        </div>
+
+        <!-- Each Portfolio Section -->
+        <div class="row">
+
+          <!-- Work 1 -->
+          <section class="col-4 center-text work">
+            <div class="each-work">
+              <a href="/sscc.html">
+                <img src="./images/work-one.jpeg" alt="work image 1" class="left">
+                <div class="work-overlay">
+                  <h2>SSCC</h2>
+                  <p>SSCC Python and Web Part</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="work-detail">
+              <h3 class="work-title work-side">SSCC</h3>
+              <a href="/sscc.html" class="work-repo"> - 바로가기 - </a>
+            </div>
+          </section>
+
+          <!-- Work 2 -->
+          <section class="col-4 center-text work">
+            <div class="each-work">
+              <a href="/python.html">
+                <img src="./images/work-two.jpeg" alt="work image 2">
+                <div class="work-overlay">
+                  <h2>Python Project</h2>
+                  <p>Multi Player Simulator Project</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="work-detail">
+              <h3 class="work-title">Python Project</h3>
+              <a href="/python.html" class="work-repo"> - 바로가기 - </a>
+            </div>
+          </section>
+
+          <!-- Work 3 -->
+          <section class="col-4 center-text work">
+            <div class="each-work">
+              <a href="/mcinstaller.html">
+                <img src="./images/work-three.jpeg" alt="work image 3" class="right">
+                <div class="work-overlay">
+                  <h2>Simple Installer</h2>
+                  <p>Simple Minecraft Installer</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="work-detail">
+              <h3 class="work-title work-side">MC Simple Installer</h3>
+              <a href="/mcinstaller.html" class="work-repo"> - 바로가기 - </a>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2022 github.com/dlams</p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
